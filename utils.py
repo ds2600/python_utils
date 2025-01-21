@@ -2,7 +2,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
-def setup_loggin(logfile: str = None, debug: bool = False) -> logging.Logger:
+def setup_logging(logfile: str = None, debug: bool = False) -> logging.Logger:
     """
     Configure the logging system
 
